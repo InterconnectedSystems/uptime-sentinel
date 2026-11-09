@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="610" viewBox="0 0 640 610" font-family="Segoe UI, 'Segoe UI Variable', system-ui, -apple-system, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-5%" y="-5%" width="110%" height="115%"><feGaussianBlur in="SourceAlpha" stdDeviation="9"/><feOffset dy="6" result="o"/><feComponentTransfer in="o" result="s"><feFuncA type="linear" slope="0.22"/></feComponentTransfer><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="clip"><rect x="0" y="0" width="600" height="530" rx="8"/></clipPath></defs>
+<g transform="translate(20,14)">
+<rect width="600" height="570" rx="8" fill="#f3f3f3" stroke="#bdbdbd" filter="url(#sh)"/>
+<path d="M8 0 H592 A8 8 0 0 1 600 8 V40 H0 V8 A8 8 0 0 1 8 0 Z" fill="#ffffff"/>
+<line x1="0" y1="40" x2="600" y2="40" stroke="#d6d6d6"/>
+<g transform="translate(14,12)"><rect width="16" height="16" rx="3" fill="#0067c0"/><path d="M3 9 L6 9 L8 4 L10 13 L12 8 L13 8" stroke="#fff" stroke-width="1.6" fill="none" stroke-linejoin="round"/></g>
+<text x="40" y="25" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Email (SMTP) settings</text>
+<g stroke="#1b1b1b" stroke-width="1.2"><line x1="564" y1="15" x2="574" y2="25"/><line x1="574" y1="15" x2="564" y2="25"/></g>
+<g transform="translate(0,40)"><g clip-path="url(#clip)"><text x="18" y="36" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Provider:</text>
+<rect x="170" y="18" width="330" height="26" rx="4" fill="#ffffff" stroke="#0067c0" /><text x="179" y="35.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >SMTP2GO (free tier)</text><path d="M480 29.0 l5 5 l5 -5" stroke="#6b6b6b" stroke-width="1.4" fill="none"/>
+<text x="170" y="66" font-size="12.5" fill="#1b1b1b" font-weight="700" text-anchor="start" >Free tier: 1,000 emails/month (200/day)</text>
+<text x="170" y="88" font-size="12" fill="#6b6b6b" font-weight="normal" text-anchor="start" >Create an SMTP user in the SMTP2GO dashboard and verify your</text>
+<text x="170" y="105" font-size="12" fill="#6b6b6b" font-weight="normal" text-anchor="start" >sender address/domain. Port 2525 also works if 587 is blocked.</text>
+<text x="170" y="126" font-size="12.5" fill="#0067c0" font-weight="normal" text-anchor="start" text-decoration="underline">Sign up / instructions: https://www.smtp2go.com/</text>
+<text x="18" y="160" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >SMTP server:</text>
+<rect x="170" y="142" width="330" height="26" rx="4" fill="#ffffff" stroke="#c8c8c8" /><text x="179" y="159.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >mail.smtp2go.com</text>
+<text x="18" y="196" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Port:</text>
+<rect x="170" y="178" width="100" height="26" rx="4" fill="#ffffff" stroke="#c8c8c8" /><text x="179" y="195.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >587</text><g stroke="#6b6b6b" stroke-width="1.2" fill="none"><path d="M254 188 l4 -4 l4 4"/><path d="M254 194 l4 4 l4 -4"/></g>
+<text x="18" y="232" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Security:</text>
+<rect x="170" y="214" width="200" height="26" rx="4" fill="#ffffff" stroke="#c0c0c0" /><text x="179" y="231.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >STARTTLS (port 587)</text><path d="M350 225.0 l5 5 l5 -5" stroke="#6b6b6b" stroke-width="1.4" fill="none"/>
+<text x="18" y="268" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Username:</text>
+<rect x="170" y="250" width="330" height="26" rx="4" fill="#ffffff" stroke="#c8c8c8" /><text x="179" y="267.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >office-monitor</text>
+<text x="18" y="304" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Password / API key:</text>
+<rect x="170" y="286" width="330" height="26" rx="4" fill="#ffffff" stroke="#c8c8c8" /><text x="179" y="303.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >••••••••••••</text>
+<text x="18" y="340" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >From address:</text>
+<rect x="170" y="322" width="330" height="26" rx="4" fill="#ffffff" stroke="#c8c8c8" /><text x="179" y="339.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >monitor@example.com</text>
+<text x="18" y="376" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Send alerts to:</text>
+<rect x="170" y="358" width="330" height="26" rx="4" fill="#ffffff" stroke="#c8c8c8" /><text x="179" y="375.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >it-alerts@example.com, owner@example.com</text>
+<g><rect x="170" y="394" width="130" height="28" rx="4" fill="#fdfdfd" stroke="#c8c8c8" /><text x="235.0" y="412.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="middle" >Send test email</text></g>
+<text x="18" y="448" font-size="12" fill="#6b6b6b" font-weight="normal" text-anchor="start" >Note: there is no legitimate free anonymous SMTP relay — open relays are blocked as spam</text>
+<text x="18" y="465" font-size="12" fill="#6b6b6b" font-weight="normal" text-anchor="start" >sources. The listed providers have free tiers; sign up, then enter the credentials they give you.</text>
+<g><rect x="492" y="486" width="90" height="28" rx="4" fill="#fdfdfd" stroke="#c8c8c8" /><text x="537.0" y="504.5" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="middle" >Cancel</text></g>
+<g><rect x="394" y="486" width="90" height="28" rx="4" fill="#0067c0" stroke="#0067c0" /><text x="439.0" y="504.5" font-size="12.5" fill="#ffffff" font-weight="normal" text-anchor="middle" >OK</text></g>
+<rect x="172" y="52" width="330" height="190" rx="6" fill="#000" opacity="0.12"/>
+<rect x="170" y="48" width="330" height="190" rx="6" fill="#ffffff" stroke="#c0c0c0" />
+<text x="184" y="69" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Custom</text>
+<rect x="174" y="78" width="322" height="24" rx="4" fill="#e5f0fb"/>
+<rect x="174" y="84" width="3" height="12" rx="1.5" fill="#0067c0"/>
+<text x="184" y="95" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >SMTP2GO (free tier)</text>
+<text x="184" y="121" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Brevo (free tier)</text>
+<text x="184" y="147" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Mailjet (free tier)</text>
+<text x="184" y="173" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Gmail</text>
+<text x="184" y="199" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Zoho Mail</text>
+<text x="184" y="225" font-size="12.5" fill="#1b1b1b" font-weight="normal" text-anchor="start" >Microsoft 365 / Exchange Online</text></g></g>
+</g></svg>
